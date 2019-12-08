@@ -1,6 +1,5 @@
 import {connect} from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 function Home(props){
     const {products, total, addedItems, addToCart} = props;
